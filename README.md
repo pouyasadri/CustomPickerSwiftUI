@@ -30,5 +30,5 @@ To get a local copy up and running follow these simple steps.
    ```sh
    open CustomPickerSwiftUI.xcodeproj
    ```
-### Usage
-This project can be used as a reference or starting point for creating custom pickers in SwiftUI applications. You can integrate or modify these components according to your requirements.
+## Usage
+- This project can be used as a reference or starting point for creating custom pickers in SwiftUI applications. You can integrate or modify these components according to your requirements.
