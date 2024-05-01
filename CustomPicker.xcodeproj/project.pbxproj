@@ -11,6 +11,11 @@
 		BEC51EAC2BDFBF510064F857 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC51EAB2BDFBF510064F857 /* ContentView.swift */; };
 		BEC51EAE2BDFBF550064F857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC51EAD2BDFBF550064F857 /* Assets.xcassets */; };
 		BEC51EB12BDFBF550064F857 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC51EB02BDFBF550064F857 /* Preview Assets.xcassets */; };
+		BEC51EB92BDFBFA70064F857 /* PickerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC51EB82BDFBFA70064F857 /* PickerData.swift */; };
+		BEC51EBC2BDFBFEF0064F857 /* PickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC51EBB2BDFBFEF0064F857 /* PickerViewModel.swift */; };
+		BEC51EBF2BDFC0FD0064F857 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC51EBE2BDFC0FD0064F857 /* PhotoPickerView.swift */; };
+		BEC51EC22BDFC4C00064F857 /* UniversalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC51EC12BDFC4C00064F857 /* UniversalPicker.swift */; };
+		BEC51EC42BDFC6F50064F857 /* LabelledPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC51EC32BDFC6F50064F857 /* LabelledPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BEC51EAB2BDFBF510064F857 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEC51EAD2BDFBF550064F857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC51EB02BDFBF550064F857 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEC51EB82BDFBFA70064F857 /* PickerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerData.swift; sourceTree = "<group>"; };
+		BEC51EBB2BDFBFEF0064F857 /* PickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewModel.swift; sourceTree = "<group>"; };
+		BEC51EBE2BDFC0FD0064F857 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		BEC51EC12BDFC4C00064F857 /* UniversalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalPicker.swift; sourceTree = "<group>"; };
+		BEC51EC32BDFC6F50064F857 /* LabelledPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelledPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,11 @@
 		BEC51EA82BDFBF510064F857 /* CustomPicker */ = {
 			isa = PBXGroup;
 			children = (
+				BEC51EB72BDFBF9B0064F857 /* Model */,
+				BEC51EBA2BDFBFD90064F857 /* ViewModel */,
+				BEC51EC02BDFC4490064F857 /* View */,
+				BEC51EBD2BDFC0D40064F857 /* Utils */,
 				BEC51EA92BDFBF510064F857 /* CustomPickerApp.swift */,
-				BEC51EAB2BDFBF510064F857 /* ContentView.swift */,
 				BEC51EAD2BDFBF550064F857 /* Assets.xcassets */,
 				BEC51EAF2BDFBF550064F857 /* Preview Content */,
 			);
@@ -65,6 +78,40 @@
 				BEC51EB02BDFBF550064F857 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEC51EB72BDFBF9B0064F857 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEC51EB82BDFBFA70064F857 /* PickerData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEC51EBA2BDFBFD90064F857 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEC51EBB2BDFBFEF0064F857 /* PickerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEC51EBD2BDFC0D40064F857 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BEC51EBE2BDFC0FD0064F857 /* PhotoPickerView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BEC51EC02BDFC4490064F857 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEC51EAB2BDFBF510064F857 /* ContentView.swift */,
+				BEC51EC12BDFC4C00064F857 /* UniversalPicker.swift */,
+				BEC51EC32BDFC6F50064F857 /* LabelledPicker.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +186,11 @@
 			files = (
 				BEC51EAC2BDFBF510064F857 /* ContentView.swift in Sources */,
 				BEC51EAA2BDFBF510064F857 /* CustomPickerApp.swift in Sources */,
+				BEC51EBC2BDFBFEF0064F857 /* PickerViewModel.swift in Sources */,
+				BEC51EC22BDFC4C00064F857 /* UniversalPicker.swift in Sources */,
+				BEC51EC42BDFC6F50064F857 /* LabelledPicker.swift in Sources */,
+				BEC51EBF2BDFC0FD0064F857 /* PhotoPickerView.swift in Sources */,
+				BEC51EB92BDFBFA70064F857 /* PickerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
